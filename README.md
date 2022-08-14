@@ -20,3 +20,6 @@ That's why we switched to [EasyOCR library](https://github.com/JaidedAI/EasyOCR)
 <p align="center">
   <img src="example_recognition.png"/>
 </p>
+
+### Futher work
+Futher works are related to Master thesis and will be based on comparing different methods of licence plates detection and recognition. The objective is to create a system capable of processing video.
