@@ -16,7 +16,7 @@ The output is an image with found boundaries (considering a certain threshold of
 </p>
   
 ### Recognizing numbers
-Firstly we preprocessed images with detected licences manually with the OpenCV library and then used a model for characters detection that was used in our other project but the results were unsatisfying. 
+Firstly we preprocessed images with detected licences manually using the OpenCV library and a model for characters detection that was used in our other project but the results were unsatisfying. 
 That's why we switched to [EasyOCR library](https://github.com/JaidedAI/EasyOCR) which outperformed our previous solution. <br />
 <p align="center">
   <img src="example_recognition.png"/>
