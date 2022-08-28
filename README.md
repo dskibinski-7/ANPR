@@ -50,7 +50,7 @@ After manual testing on 40 test images, we obtained the following results:
 As you can see, the model performs quite well in licence plate detection, even in difficult cases. 
 The value of correctly recognised plates is low, as already one incorrect mark indicated an incorrectly recognised plate. 
 To get a better idea of the model's performance, you can look at the table with the ratio of correctly recognised characters to all characters on a given number plate. The results look quite good. 
-There were situations where the model correctly read the characters on the plate, but it was not the registration number (e.g. the name of the state). A solution to this problem could be to increase the restrictions in the OCR. There were also examples in the test set that were impossible to recognise even by a human. 
+There were situations where the model correctly read the characters on the plate, but it was not the registration number (e.g. the name of the state). There were also examples in the test set that were impossible to recognise even by a human. 
 
 
 ### Further work
