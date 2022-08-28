@@ -2,7 +2,7 @@
 
 ## Automatic number plate recognizer
 
-The purpose of the project was to create a system that is able to detect licence plates from the image and detect their numbers. 
+The purpose of the project was to create a system that is able to detect licence plates from the image and detect their numbers. [Current state of the model.](ckpt-6.index)
 
 ### Model and dataset
 We used [tensorflow pre-trained model](https://github.com/tensorflow/models) that can be downloaded [here.](http://download.tensorflow.org/models/object_detection/tf2/20200711/ssd_mobilenet_v2_fpnlite_320x320_coco17_tpu-8.tar.gz)
@@ -13,8 +13,6 @@ The dataset includes number plates from various countries, as well as custom one
 Example input images: <br />
 | <img src="example_input1.png"/>  | <img src="example_input2.png"/> | <img src="example_input3.png"/> |
 | ------------- | ------------- | ------------- |
-
-[Current state of the model.](ckpt-6.index)
 
 The output is an image with found boundaries (considering a certain threshold of model confidence) of the licence plate: <br />
 <p align="center">
@@ -30,4 +28,7 @@ That's why we switched to [EasyOCR library](https://github.com/JaidedAI/EasyOCR)
 </p>
 
 ### Further work
-Further works are related to the Master thesis and will be based on comparing different methods of licence plate detection and recognition. The objective is to create a system capable of processing video.
+Further works are related to the Master thesis and will be based on comparing different methods of licence plate detection and recognition. The objective is to create a system capable of processing video. <br />
+#TODO
+- [x] Describe dataset
+- [ ] Describe results
