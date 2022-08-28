@@ -26,9 +26,13 @@ That's why we switched to [EasyOCR library](https://github.com/JaidedAI/EasyOCR)
 <p align="center">
   <img src="example_recognition.png"/>
 </p>
+<br />
+Due to the lack of information on registration numbers, automatic tests of the results are not possible. However, we decided to perform manual tests in three categories:
+ - plate detection
+ - recognition of the entire number plate
+ - average number of correctly recognised characters
+
+//spisać wyniki, przygotować tabelę, część na treningowym i część na testowym
 
 ### Further work
 Further works are related to the Master thesis and will be based on comparing different methods of licence plate detection and recognition. The objective is to create a system capable of processing video. <br />
-#TODO
-- [x] Describe dataset
-- [ ] Describe results
