@@ -27,10 +27,11 @@ That's why we switched to [EasyOCR library](https://github.com/JaidedAI/EasyOCR)
   <img src="example_recognition.png"/>
 </p>
 <br />
-Due to the lack of information on registration numbers, automatic tests of the results are not possible. However, we decided to perform manual tests in three categories:
- - plate detection
- - recognition of the entire number plate
- - average number of correctly recognised characters
+Due to the lack of information on registration numbers, automatic tests of the results are not possible. However, we decided to perform manual tests in three categories: <br />
+
+- Plate detection
+- Recognition of the entire number plate
+- Average number of correctly recognised characters
 
 //spisać wyniki, przygotować tabelę, część na treningowym i część na testowym
 
