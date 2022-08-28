@@ -30,10 +30,28 @@ That's why we switched to [EasyOCR library](https://github.com/JaidedAI/EasyOCR)
 Due to the lack of information on registration numbers, automatic tests of the results are not possible. However, we decided to perform manual tests in three categories: <br />
 
 - Plate detection
-- Recognition of the entire number plate
-- Average number of correctly recognised characters
+- Recognition of the entire licence plate
+- Average number of correctly recognised characters (the average ratio of the correct characters in the correct positions to the total number of characters)
 
-//spisać wyniki, przygotować tabelę, część na treningowym i część na testowym
+After manual testing on 40 test images, we obtained the following results:
+
+| | Correct plate detection  | Correct plate recognition |
+| :---  | :---:  | :---:  |
+| Accuracy | 87.5 % | 32.5 % |
+
+<br />
+
+| | Correctly recognised characters |
+| :---  | :---:  |
+| Average | 48.9 % |
+| Median | 72.5 % |
+
+<br />
+As you can see, the model performs quite well in licence plate detection, even in difficult cases. 
+The value of correctly recognised plates is low, as already one incorrect mark indicated an incorrectly recognised plate. 
+To get a better idea of the model's performance, you can look at the table with the ratio of correctly recognised characters to all characters on a given number plate. The results look quite good. 
+There were situations where the model correctly read the writing on the plate, but it was not the registration number (e.g. the name of the state). A solution to this problem could be to increase the restrictions in the OCR. There were also examples in the test set that were impossible to recognise even by a human. 
+
 
 ### Further work
 Further works are related to the Master thesis and will be based on comparing different methods of licence plate detection and recognition. The objective is to create a system capable of processing video. <br />
